@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+# IntelliJ user state only; keep shared project files and .run/ configs
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/queries/
+.idea/markdown.xml
+
+# Secrets and local values (keep committed example files)
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+
+# Apps are folders, not zip bundles
+*.zip
+
+# Local scratch and logs
+/artifacts/
+*.log
+*.tmp
+*.bak
